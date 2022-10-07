@@ -1,9 +1,10 @@
 import telebot
 from telebot import types
 import const
+import apitoken
 from geopy.distance import geodesic
 
-bot = telebot.TeleBot(const.API_TOKEN)
+bot = telebot.TeleBot(apitoken.API_TOKEN)
 
 markup_menu = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=1)
 btn_address = types.KeyboardButton('Ближайший офис', request_location=True)

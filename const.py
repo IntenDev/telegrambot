@@ -1,4 +1,3 @@
-API_TOKEN = '5729384020:AAF6Hw_-H_p2W63V7BCuypS3Cm6B1yugRFk'
 MAGAZINS = (
     {
         'title': 'Магазин "Полка"',
